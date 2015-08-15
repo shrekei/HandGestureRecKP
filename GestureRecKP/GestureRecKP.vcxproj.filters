@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Random Forest">
+      <UniqueIdentifier>{5d2a6f18-eeaa-4511-827d-37894d22d93a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Threads">
+      <UniqueIdentifier>{6a05fdbe-7655-455b-ae42-feb250528a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Random Forest\Header Files">
+      <UniqueIdentifier>{22481cf6-fa85-4a9f-9454-77b77ccc0dfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Random Forest\Source Files">
+      <UniqueIdentifier>{98442ef5-6781-458d-a3ef-126298efd17f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test.cpp">
+      <Filter>Main Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="HandProcessor.cpp">
+      <Filter>Main Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthUtilities.cpp">
+      <Filter>Random Forest\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomDecisionTree.cpp">
+      <Filter>Random Forest\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomForest.cpp">
+      <Filter>Random Forest\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RDTNode.cpp">
+      <Filter>Random Forest\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HandProcessor.h">
+      <Filter>Main Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="GestureRec.h">
+      <Filter>Main Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthUtilities.h">
+      <Filter>Random Forest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RDTNode.h">
+      <Filter>Random Forest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomDecisionTree.h">
+      <Filter>Random Forest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomForest.h">
+      <Filter>Random Forest\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomTest.h">
+      <Filter>Random Forest\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

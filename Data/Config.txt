@@ -1,0 +1,6 @@
+320 240				// size
+0.2 0.6				// depth range
+10					// anchor number
+0.10					// feature radius
+23.0 10.0 10.0			// RF camera parameters
+..\data\forest_Apt.txt		// RF file name
